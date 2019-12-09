@@ -10,13 +10,26 @@
 #include <vector>
 using namespace std;
 
+u_long findNthFiboTerm(int n) {
+    if(n <= 1)
+        return n;
+    
+    u_long current = 1;
+    u_long previous = 0;
+    for(int i = 1; i < n; i++) {
+        u_long temp = current;
+        current+= previous;
+        previous = temp;
+    }
+    return current;
+}
 
 // Returns the board in its next state.
 vector<vector<int>> gameOfLife(vector<vector<int>>& board) {
     // Write your code here.
 
-    const int n = board.size();
-    const int m = board[0].size();
+    const u_long n = board.size();
+    const u_long m = board[0].size();
     vector<vector<int>> newBoard( n , vector<int> (m, 0));
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < m; j++) {
@@ -58,6 +71,9 @@ int main(int argc, const char * argv[]) {
                                { 0, 0, 1, 0 }
     };
     vector<vector<int>> newBoard = gameOfLife(board);
+    cout << "Sixth term is " << findNthFiboTerm(98) << "\n";
+    cout << "Max size " << UINTMAX_MAX;
+    cout << "\n";
 //    vector<vector<int>> board
     return 0;
 }
