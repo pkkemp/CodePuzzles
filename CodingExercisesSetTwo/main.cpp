@@ -78,7 +78,6 @@ vector<vector<int>> gameOfLife(vector<vector<int>>& board) {
             else {
                 newBoard [i][j] = 0;
             }
-        
         }
     }
     return newBoard;
@@ -94,7 +93,7 @@ int main(int argc, const char * argv[]) {
                                { 0, 0, 1, 0 }
     };
     vector<vector<int>> newBoard = gameOfLife(board);
-    cout << "Sixth term is " << findNthFiboTerm(98) << "\n";
+    cout << "Sixth term is " << findNthFiboTerm(25) << "\n";
     cout << "Max size " << UINTMAX_MAX;
     cout << "\n";
 //    vector<vector<int>> board
