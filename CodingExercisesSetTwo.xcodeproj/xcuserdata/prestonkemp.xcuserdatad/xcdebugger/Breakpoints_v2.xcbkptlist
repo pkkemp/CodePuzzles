@@ -32,7 +32,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
             endingLineNumber = "32"
-            landmarkName = "gameOfLife(board)"
+            landmarkName = "letterCombinations(digits)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -48,7 +48,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
             endingLineNumber = "31"
-            landmarkName = "gameOfLife(board)"
+            landmarkName = "letterCombinations(digits)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -64,23 +64,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
             endingLineNumber = "18"
-            landmarkName = "findNthFiboTerm(n)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B0EF304C-E7C6-4B5C-8D82-04BFE0AF64AF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CodingExercisesSetTwo/main.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "findNthFiboTerm(n)"
+            landmarkName = "letterCombinations(digits)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -96,7 +80,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "33"
             endingLineNumber = "33"
-            landmarkName = "gameOfLife(board)"
+            landmarkName = "letterCombinations(digits)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -112,7 +96,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
             endingLineNumber = "24"
-            landmarkName = "findNthFiboTerm(n)"
+            landmarkName = "letterCombinations(digits)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

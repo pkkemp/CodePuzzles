@@ -8,7 +8,30 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
+
+vector<string> letterCombinations(string digits) {
+    // Write your code here.
+
+    vector<vector<string>> chars{ { "a", "b", "c"},
+                               { "d", "e", "f" },
+                               { "g", "h", "i"},
+                               { "j", "k", "l" },
+                               { "m", "n", "o" },
+                               { "p", "q", "r", "s" },
+                               { "t", "u", "v" },
+                               { "w", "x", "y", "z" }};
+    vector<string> combos = chars[stoi(digits.substr(0,0))];
+    for(int i = 1; i < digits.length(); i++) {
+        int digit = stoi(digits.substr(i,i));
+        for(int j = 0; j < chars[digit].size(); j++) {
+            combos.push_back(chars[digit][j]);
+        }
+
+
+    }
+}
 
 u_long findNthFiboTerm(int n) {
     if(n <= 1)
